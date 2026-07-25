@@ -1,8 +1,25 @@
 aid: comstruct
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/comstruct.png
 name: Comstruct
-description: 'Comstruct is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Comstruct is a Munich-based construction technology company that provides AI-powered
+  agents to automate the procurement of construction materials. Its platform runs the full procurement
+  workflow from the bill of materials (Leistungsverzeichnis) through supplier inquiry, offer comparison,
+  contract negotiation, digital delivery notes, AI-based invoice verification, and sustainability
+  reporting. Customers include HOCHTIEF, Implenia, Marti, and Leonhard Weiss. Comstruct is backed by
+  GV (Google Ventures). As of enrichment the company publishes no public developer portal, API
+  reference, or OpenAPI definition; this profile is maintained in the API Evangelist network from its
+  public web presence.'
 url: https://raw.githubusercontent.com/api-evangelist/comstruct/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Enterprise
+- Construction
+- Construction Technology
+- Procurement
+- Supply Chain
+- Invoice Automation
+- Fintech
+- Artificial Intelligence
+- Germany
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +48,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/comstruct-domain-security.yml
+- type: TrustCenter
+  url: security/comstruct-trust-center.yml
+- type: LLMsTxt
+  url: llms/comstruct-llms.txt
 - type: Website
   url: https://www.comstruct.com
+- type: Login
+  url: https://app.comstruct.com
+- type: TermsOfService
+  url: https://comstruct.com/bedingungen-und-konditionen
+- type: PrivacyPolicy
+  url: https://comstruct.com/datenschutzerklaerung
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

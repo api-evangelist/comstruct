@@ -1,0 +1,26 @@
+# Comstruct
+
+> Comstruct is a Munich-based construction technology company that provides AI-powered agents to automate the procurement of construction materials — from bill of materials (Leistungsverzeichnis) through supplier inquiry, offer comparison, contract negotiation, digital delivery notes, AI invoice processing, and sustainability reporting. Customers include HOCHTIEF, Implenia, Marti, and Leonhard Weiss.
+
+This is an API Evangelist network profile for Comstruct. As of this writing Comstruct publishes no public developer portal, API reference, or OpenAPI definition; this llms.txt is generated from the company profile and the artifacts captured in this repository.
+
+## Company
+- [Website](https://www.comstruct.com): Company homepage (German)
+- [Application login](https://app.comstruct.com): Customer web application sign-in
+- [Book a meeting](https://meetings-eu1.hubspot.com/hammer/inbound-meetings?uuid=e148a717-5434-4e16-a079-09882609c2dc): Request a product demo
+- [Careers](https://comstruct.com/karriere): Open roles
+
+## Legal & Trust
+- [Terms & Conditions](https://comstruct.com/bedingungen-und-konditionen)
+- [Privacy Policy](https://comstruct.com/datenschutzerklaerung)
+- [Trust Center](https://app.secfix.com/trust/comstruct/757c54d801c44cf3bdcb3b8d8c41885f): Security & compliance portal on Secfix
+- [Impressum](https://comstruct.com/impressum)
+
+## Artifacts in this repository
+- [APIs.json](https://raw.githubusercontent.com/api-evangelist/comstruct/refs/heads/main/apis.yml): Machine-readable network profile
+- [Domain security probe](https://raw.githubusercontent.com/api-evangelist/comstruct/refs/heads/main/security/comstruct-domain-security.yml): TLS / HSTS / DNSSEC / SPF / DMARC posture for comstruct.com
+
+## Notes
+- No public API, developer portal, SDK packages, MCP server, webhooks, or OpenAPI/AsyncAPI specification were found at the time of enrichment.
+- Sector: construction technology / procurement (enterprise).
+- Backed by GV (Google Ventures).

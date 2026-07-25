@@ -1,0 +1,18 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.comstruct.com
+probe: false
+url: https://app.secfix.com/trust/comstruct/757c54d801c44cf3bdcb3b8d8c41885f
+platform: secfix
+certifications: []
+notes: >-
+  Comstruct links a Trust Center hosted on the Secfix compliance platform from
+  its homepage (labelled "Trust Center/Security"). The page is a client-rendered
+  Secfix trust portal; specific named certifications (e.g. ISO 27001, SOC 2)
+  could not be confirmed from the fetched content and are intentionally left
+  empty rather than fabricated. Revisit to capture named certifications once the
+  portal content is retrievable.
+evidence:
+- source: https://www.comstruct.com
+  kind: homepage-link
+  detail: Trust Center link to Secfix trust portal
